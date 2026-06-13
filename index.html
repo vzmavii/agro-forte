@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte Futuro — Sustentável</title>
+    <link rel="icon" type="image/png" href="imagem/logo_leaf.png">
+    <link rel="shortcut icon" type="image/png" href="imagem/logo_leaf.png">
+    <link rel="apple-touch-icon" href="imagem/logo_leaf.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header id="hdr">
+    <a href="#topo" class="logo">
+        <img src="imagem/logo_leaf.png" alt="Folha verde" class="logo-img">
+        <div>
+            <span class="logo-name">Agro Forte Futuro</span>
+            <span class="logo-tag">Sustentável</span>
+        </div>
+    </a>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#desafios">Desafios</a>
+        <a href="#rodape">Autora</a>
+    </nav>
+    <!-- auth-btn e dark-btn injetados por auth.js -->
+</header>
+
+<!-- ─── HERO ─── -->
+<section class="hero" id="topo">
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+
+    <div class="hero-tag">
+        <img src="imagem/logo_leaf.png" alt="" class="tag-img"> Agricultura Sustentável
+    </div>
+
+    <h1>Agro Forte <em>Futuro</em></h1>
+
+    <p class="hero-sub">
+        Equilíbrio entre Produção e Meio Ambiente — construindo uma agricultura que alimenta o mundo sem destruir o planeta.
+    </p>
+
+    <div class="hero-author">
+        <div class="author-av">
+            <img src="imagem/author.png" alt="Professora" class="author-img">
+        </div>
+        <span>Autora: <strong>Professora Cristal</strong></span>
+    </div>
+
+    <a href="#desafios" class="hero-cta">
+        <img src="imagem/icon_env.png" alt="" class="cta-img"> Explorar os Desafios
+    </a>
+
+    <div class="scroll-hint">
+        <img src="imagem/scroll_hint.png" alt="Rolar" class="scroll-img">
+        Rolar
+    </div>
+</section>
+
+<!-- ─── STATS STRIP ─── -->
+<div class="stats">
+    <div class="stat"><div class="stat-n">33%</div><div class="stat-l">Solos Degradados no Mundo</div></div>
+    <div class="stat"><div class="stat-n">70%</div><div class="stat-l">Água Doce Usada na Agro</div></div>
+    <div class="stat"><div class="stat-n">1/3</div><div class="stat-l">Alimentos São Desperdiçados</div></div>
+    <div class="stat"><div class="stat-n">24%</div><div class="stat-l">Gases Estufa vêm da Agro</div></div>
+</div>
+
+<!-- ─── SOBRE ─── -->
+<section class="sec about" id="sobre">
+    <div class="sec-hd">
+        <div class="sec-chip">Nossa Missão</div>
+        <h2>Produção com Responsabilidade</h2>
+        <div class="rule"></div>
+        <p>A agroindústria sustentável equilibra a necessidade de alimentar bilhões de pessoas com a preservação dos recursos naturais para as gerações futuras.</p>
+    </div>
+    <div class="about-grid">
+        <div class="a-card">
+            <div class="ic"><img src="imagem/icon_env.png" alt="Equilíbrio Ambiental" class="about-img"></div>
+            <h3>Equilíbrio Ambiental</h3>
+            <p>Produzir alimentos respeitando os limites do planeta, preservando solos, água e biodiversidade para as próximas gerações.</p>
+        </div>
+        <div class="a-card">
+            <div class="ic"><img src="imagem/icon_prod.png" alt="Produção Eficiente" class="about-img"></div>
+            <h3>Produção Eficiente</h3>
+            <p>Utilizar tecnologia e boas práticas para aumentar a produtividade com menos impacto ambiental e maior qualidade dos produtos.</p>
+        </div>
+        <div class="a-card">
+            <div class="ic"><img src="imagem/icon_social.png" alt="Justiça Social" class="about-img"></div>
+            <h3>Justiça Social</h3>
+            <p>Garantir condições dignas de trabalho, acesso à terra e renda justa para todos os envolvidos na cadeia produtiva.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ─── PROBLEMAS & SOLUÇÕES ─── -->
+<section class="sec problems" id="desafios">
+    <div class="pg-wrap">
+        <div class="sec-hd">
+            <div class="sec-chip">Desafios &amp; Soluções</div>
+            <h2>Os 10 Maiores Desafios da Agroindústria</h2>
+            <div class="rule"></div>
+            <p>Selecione um desafio para revelar as <strong>10 formas de resolver</strong>. O conhecimento é o primeiro passo para a mudança.</p>
+        </div>
+
+        <!-- Botão ranking injetado por auth.js aqui -->
+
+        <div class="how-banner">
+            <div class="hi">
+                <img src="imagem/icon_env.png" alt="" style="width:28px;height:28px">
+            </div>
+            <p><strong>Como usar:</strong> Clique em qualquer card abaixo para expandir e visualizar as 10 principais soluções. Clique no badge <strong>🎮 Jogar</strong> para abrir o mini-jogo daquela solução. Faça login para salvar sua pontuação!</p>
+        </div>
+
+        <div class="prob-grid" id="probGrid"></div>
+    </div>
+</section>
+
+<!-- ─── QUOTE ─── -->
+<section class="quote-sec">
+    <div class="q-mark">"</div>
+    <p class="q-text">A agricultura sustentável não é uma escolha — é a única forma de garantir que <em>as gerações futuras</em> também tenham a chance de prosperar sobre esta terra.</p>
+    <p class="q-by">— Professora Cristal Santos Prestes</p>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer id="rodape">
+    <div class="ft-logo">
+        <img src="imagem/logo_leaf.png" alt="" class="ft-logo-img"> Agro Forte Futuro
+    </div>
+    <p class="ft-sub">Sustentável — Equilíbrio entre Produção e Meio Ambiente</p>
+    <p class="ft-author">
+        <img src="imagem/author.png" alt="" style="width:24px;height:24px;vertical-align:middle"> Autora: Professora Cristal Santos Prestes
+    </p>
+    <div class="ft-line"></div>
+    <p class="ft-copy">© 2025 Agro Forte Futuro. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Back to top -->
+<button id="btt" title="Voltar ao topo">↑</button>
+
+<!-- Scripts: auth antes de games para que _requireLogin e _saveGameScore existam -->
+<script src="server/script.js"></script>
+<script src="server/auth.js"></script>
+<script src="server/games.js"></script>
+</body>
+</html>
