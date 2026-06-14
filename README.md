@@ -1,7 +1,7 @@
 # Agro Forte Futuro — Sustentável
 ### Equilíbrio entre Produção e Meio Ambiente
 
-**Autores:** Kauany e Matheus  
+**Autores:** Kauany e Mateus  
 **Tema:** Agro Forte Futuro — Sustentável Equilíbrio entre Produção e Meio Ambiente
 **Versão:** 3.0
 
@@ -262,7 +262,7 @@ Paleta de cores centrada no verde-floresta (#1a3d20 → #3a9147) com destaques �
 | `<div class="stats">` | Faixa âmbar com 4 estatísticas reais do setor |
 | `<section class="sec about" id="sobre">` | 3 cards: Ambiental, Eficiência, Social |
 | `<section class="sec problems" id="desafios">` | Instrução de uso (.how-banner) + grid de cards preenchido dinamicamente por JS (#probGrid) |
-| `<section class="quote-sec">` | Citação dos alunos Kauany e Matheus |
+| `<section class="quote-sec">` | Citação dos alunos Kauany e Mateus |
 | `<footer id="rodape">` | Rodapé com nome do projeto e créditos da autora |
 | `<div id="go">` (injetado por games.js) | Overlay dos mini-jogos: #go-intro (apresentação), #go-arena (jogo + HUD), #go-result (vitória ou derrota) |
 | `<button id="btt">` | Botão flutuante "voltar ao topo" (fixo na tela, aparece após 400px de scroll) |
